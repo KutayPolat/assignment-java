@@ -22,7 +22,7 @@ uppercase and prints it and asks for the next name from the user and repeats.
                     stopAsking = false;
                     containNumber = true;
                 }
-            }
+            }           
             if(!containNumber){
                 System.out.println(input.toUpperCase(Locale.ROOT));
             }

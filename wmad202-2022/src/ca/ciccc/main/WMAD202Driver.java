@@ -14,7 +14,7 @@ import ca.ciccc.wmad202.lecturer.main.LecturerDriver;
 
 public class WMAD202Driver {
     public static void main(String[] args) {
-        //Assignment1Driver.run();
+     //   Assignment1Driver.run();
         Assignment2Driver.run();
         //Assignment3Driver.run();
 //        Assignment4Driver.run();
