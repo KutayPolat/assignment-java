@@ -18,7 +18,7 @@ public class Assignment2Driver {
         boolean stop = true;
         while (stop){
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Please enter question number 1-10 to show result of question");
+            System.out.println("Please enter question number 1-10 to show solve of question");
             int question = scanner.nextInt();
             if (question == 1){
                 Question1 question1 = new Question1();
