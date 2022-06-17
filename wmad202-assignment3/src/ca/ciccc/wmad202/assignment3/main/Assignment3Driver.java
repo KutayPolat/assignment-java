@@ -16,52 +16,65 @@ import java.util.Scanner;
 public class Assignment3Driver {
     public static void run() {
         boolean stop = true;
+
         while (stop){
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter question number 1-10 to show solve of question");
             int questions = scanner.nextInt();
-            if (questions == 1){
-                Question1 question = new Question1();
-                question.invoke();
-                stop = false;
-            }else if(questions == 2){
-                Question2 question = new Question2();
-                question.invoke();
-                stop = false;
-            }else if(questions == 3){
-                Question3 question = new Question3();
-                question.invoke();
-                stop = false;
-            }else if(questions == 4){
-                Question4 question = new Question4();
-                question.invoke();
-                stop = false;
-            }else if(questions == 5){
-                Question5 question = new Question5();
-                question.invoke();
-                stop = false;
-            }else if(questions == 6){
-                Question6 question = new Question6();
-                question.invoke();
-                stop = false;
-            }else if(questions == 7){
-                Question7 question = new Question7();
-                question.invoke();
-                stop = false;
-            } else if(questions == 8){
-                Question8 question = new Question8();
-                question.invoke();
-                stop = false;
-            }else if(questions == 9){
-                Question9 question = new Question9();
-                question.invoke();
-                stop = false;
-            }else if(questions == 10){
-                Question10 question = new Question10();
-                question.invoke();
-                stop = false;
-            }else {
-                System.out.println("Please enter btw 1-10");
+
+            switch (questions) {
+                case 1:
+                    Question1 question = new Question1();
+                    question.invoke();
+                    stop = false;
+                    break;
+                case 2:
+                    Question2 question2 = new Question2();
+                    question2.invoke();
+                    stop = false;
+                    break;
+                case 3:
+                    Question3 question3 = new Question3();
+                    question3.invoke();
+                    stop = false;
+                    break;
+                case 4:
+                    Question4 question4 = new Question4();
+                    question4.invoke();
+                    stop = false;
+                    break;
+                case 5:
+                    Question5 question5 = new Question5();
+                    question5.invoke();
+                    stop = false;
+                    break;
+                case 6:
+                    Question6 question6 = new Question6();
+                    question6.invoke();
+                    stop = false;
+                    break;
+                case 7:
+                    Question7 question7 = new Question7();
+                    question7.invoke();
+                    stop = false;
+                    break;
+                case 8:
+                    Question8 question8 = new Question8();
+                    question8.invoke();
+                    stop = false;
+                    break;
+                case 9:
+                    Question9 question9 = new Question9();
+                    question9.invoke();
+                    stop = false;
+                    break;
+                case 10:
+                    Question10 question10 = new Question10();
+                    question10.invoke();
+                    stop = false;
+                    break;
+                default:
+                    System.out.println("Enter number between 1 to 10");
             }
         }
     }
