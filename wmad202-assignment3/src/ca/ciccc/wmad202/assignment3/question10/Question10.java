@@ -7,6 +7,8 @@ public class Question10 {
         public static void invoke(){
             String function1 = functionCreator();
             String function2 = functionCreator();
+            System.out.println("function 1 created : "+ function1);
+            System.out.println("function 2 created : "+ function2);
             System.out.println(checkSingleFactorEquality(function1,function2));
 
         }
