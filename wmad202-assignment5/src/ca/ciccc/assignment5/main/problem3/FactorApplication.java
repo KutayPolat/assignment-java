@@ -6,7 +6,7 @@ public class FactorApplication {
         SinglePolynomialFactor factor2= new SinglePolynomialFactor(4,"x",2);
 
         String factor= factor1.getSinglePolynomialFactor();
-        String factor22= factor2.getSinglePolynomialFactor();
+        String factor12= factor2.getSinglePolynomialFactor();
 
         PolynomialFactor factor3= new PolynomialFactor();
         factor3.addSinglePolynomialFactor(factor1,0);
@@ -17,6 +17,6 @@ public class FactorApplication {
 
 
         System.out.println(factor);
-        System.out.println(factor22);
+        System.out.println(factor12);
     }
 }

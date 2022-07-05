@@ -22,23 +22,23 @@ public class SinglePolynomialFactor {
     }
     public String getSinglePolynomialFactor(){
         if(this.coefficient==0){
-            String factor= (this.baseFactor + "^" + this.exponent);
+            String factor= (baseFactor + "^" + exponent);
             return factor;
         }
         if(this.coefficient==1){
-            String factor= (this.baseFactor + "^" + this.exponent);
+            String factor= (baseFactor + "^" + exponent);
             return factor;
         }
         if(this.exponent==0){
-            String factor= (String.valueOf(this.coefficient));
+            String factor= (String.valueOf(coefficient));
             return factor;
         }
         if(this.exponent==1){
-            String factor= (this.coefficient + "*" + this.baseFactor);
+            String factor= (coefficient + "*" + baseFactor);
             return factor;
         }
 
-        String factor= (this.coefficient + "*" + this.baseFactor + "^" + this.exponent);
+        String factor= (coefficient + "*" + baseFactor + "^" + exponent);
         return factor;
 
     }

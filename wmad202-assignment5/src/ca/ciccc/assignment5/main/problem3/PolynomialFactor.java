@@ -20,8 +20,8 @@ public class PolynomialFactor {
 
     public String getPolynomialFactor() {
         String allFactor = "";
-        for (SinglePolynomialFactor single : this.singlePolynomialFactors.keySet()) {
-            allFactor = single + " + " + allFactor;
+        for (SinglePolynomialFactor single : singlePolynomialFactors.keySet()) {
+            allFactor = single.getSinglePolynomialFactor() + " + " + allFactor;
         }
         return allFactor;
     }
