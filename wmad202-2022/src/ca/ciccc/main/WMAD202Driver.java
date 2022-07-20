@@ -21,9 +21,9 @@ public class WMAD202Driver {
 //        Assignment5Driver.run();
  //       Assignment6Driver.run();
  //      Assignment7Driver.run();
-//        Assignment8Driver.run();
+       Assignment8Driver.run();
 //        Assignment9Driver.run();
 //        Assignment10Driver.run();
-         LecturerDriver.run();
+ //        LecturerDriver.run();
     }
 }
