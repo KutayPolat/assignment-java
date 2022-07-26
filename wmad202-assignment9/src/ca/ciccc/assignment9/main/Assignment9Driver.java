@@ -1,10 +1,15 @@
 package ca.ciccc.assignment9.main;
 
-import ca.ciccc.assignment9.question6.Question6;
+import ca.ciccc.assignment9.problem1.FunctionalApplication;
+import ca.ciccc.assignment9.problem2.CustomImplementation;
 
 public class Assignment9Driver {
     public static void run() {
-        Question6 question2 = new Question6();
-        question2.invoke();
+        FunctionalApplication application = new FunctionalApplication();
+        application.runApp();
+        System.out.println();
+        System.out.println("****** Custom Functional Interface ******");
+        CustomImplementation customImplementation = new CustomImplementation();
+        customImplementation.runCustom();
     }
 }
